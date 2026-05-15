@@ -1,0 +1,13 @@
+cd "d:\Qr Base student id system"
+taskkill /F /IM node.exe 2>nul; timeout /t 2 /nobreak >nul && cd "d:/Qr Base student id system/backend" && npm start
+ cd "d:\Qr Base student id system"  
+  cd "d:/Qr Base student id system/frontend" && npm run build && npx serve dist -l 3000 -s
+
+
+
+
+   cd "d:/Qr Base student id system/backend" && node server.js (backend)
+
+
+
+    cd "d:/Qr Base student id system/frontend" && npx serve dist -l 3000 -s (frontend)
